@@ -11,6 +11,6 @@ SELECT
     payment_method, 
     count_by_method, 
     SUM(count_by_method) OVER(PARTITION BY country) AS payment_by_country,
-    count_by_method / SUM(count_by_method) OVER(PARTITION BY country)) * 100 AS percentage,
+    count_by_method / SUM(count_by_method) OVER(PARTITION BY country) * 100 AS percentage,
     ROW_NUMBER() OVER(PARTITION BY country ORDER BY count_by_method DESC) AS payment_rank
 FROM payment_summary
