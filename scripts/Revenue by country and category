@@ -1,0 +1,13 @@
+SELECT country,
+       product_category,
+       revenue_by_category,
+       SUM(revenue_by_category) OVER(PARTITION BY country) AS revenue_by_country,
+       revenue_by_category / SUM(revenue_by_category) OVER(PARTITION BY country) * 100 AS percentage
+FROM (
+SELECT country,
+       product_category,
+       SUM(purchase_amount) AS revenue_by_category
+FROM `ecommerce.transaction`
+GROUP BY 1,2
+)
+ORDER BY country ASC, revenue DESC
