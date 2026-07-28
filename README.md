@@ -1,5 +1,6 @@
 # E-commerce-SQL-analysis
 End-to-End E-Commerce Data Analysis using Google BigQuery (SQL) and Google Sheets. Uncovering insights on sales trends, geography, customer demographics, and payment behavior.
+* [E-commerce transaction table](https://docs.google.com/spreadsheets/d/1Z-zPO_WuhzQkefrnOdu7TdS5qUd9Se-vEkcE4AyVqk0/edit?usp=sharing)
 
 ## 📌 Project Overview
 This project focuses on conducting an End-to-End Exploratory Data Analysis (EDA) of a large-scale e-commerce dataset containing over 50,000 transaction records. Using **Google BigQuery (SQL)** for data extraction and aggregation, and **Google Sheets** for data cleaning and visualization, this analysis uncovers critical business insights regarding sales trends, geographical performance, customer demographics, and payment behavior.
