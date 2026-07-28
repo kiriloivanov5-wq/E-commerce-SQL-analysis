@@ -3,4 +3,4 @@ SELECT
     ROUND(SUM(Purchase_Amount), 2) AS total_revenue
 FROM `ecommerce.transaction`
 GROUP BY 1
-ORDER BY 1 ASC;
+ORDER BY 1 ASC
