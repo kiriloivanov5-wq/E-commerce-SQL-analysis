@@ -25,7 +25,7 @@ By ranking payment options using window functions, distinct local preferences we
 * **UPI** holds dominance in **Australia and Canada**.
 * **Debit Cards** are preferred in the **US and Germany**, while **Credit Cards** lead in **France**.
 * *Strategic Action:* Because payment methods have highly uniform shares (~17-18% each per country), the business must retain all local transaction gateways to avoid checkout friction.
-*  ![Table of number of payments methods](https://docs.google.com/spreadsheets/d/1Zc1MfG30ZxxhhoSm-SYpQhHzxPUfC464-Qskpmf8h0I/edit?usp=sharing)
+*  ![Table of number of payments methods](https://docs.google.com/spreadsheets/d/1zVf_nQzPkLs1zYutknI1DN44nvApkicsj_yYvOTIQy0/edit?usp=sharing)
 
 ### 4. Demographic Profiling & Purchasing Patterns
 Segmenting customers into specific age groups via conditional logic revealed clear behavioral dynamics:
@@ -34,7 +34,7 @@ Segmenting customers into specific age groups via conditional logic revealed cle
   * **Young (18–30):** Prefer **`Sports`** products (Active lifestyle focus).
   * **Middle-Aged (31–50):** Prefer **`Clothing`** (Family & lifestyle management).
   * **Seniors (51+):** Prefer **`Toys`** (Likely purchasing gifts for children/grandchildren).
-* ![Table of purchase by age](https://docs.google.com/spreadsheets/d/1Zc1MfG30ZxxhhoSm-SYpQhHzxPUfC464-Qskpmf8h0I/edit?usp=sharing)
+* ![Table of purchase by age](https://docs.google.com/spreadsheets/d/1ai4bESwDEddC8VPNDJE2NYTDAAIdmaQocS5M4U9ZEIg/edit?usp=sharing)
 ---
 
 ## 📁 Repository Structure
