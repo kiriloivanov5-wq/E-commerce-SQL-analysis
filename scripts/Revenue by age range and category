@@ -1,0 +1,20 @@
+WITH age_groups AS (
+    SELECT 
+        CASE 
+            WHEN age BETWEEN 18 AND 30 THEN "young (18-30)"
+            WHEN age BETWEEN 31 AND 50 THEN "average_age (31-50)"
+            WHEN age > 50 THEN "old (51+)"
+        END AS age_range,
+        Product_Category,
+        SUM(Purchase_Amount) AS revenue,
+        COUNT(Transaction_ID) AS count_of_purchase
+    FROM `ecommerce.transaction`
+    GROUP BY 1, 2
+)
+SELECT 
+    age_range, 
+    Product_Category,
+    SUM(revenue) OVER(PARTITION BY age_range) AS revenue_by_age_range,
+    count_of_purchase,
+    ROW_NUMBER() OVER(PARTITION BY age_range ORDER BY count_of_purchase DESC) AS category_rank
+FROM age_groups
