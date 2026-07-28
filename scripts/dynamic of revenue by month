@@ -1,0 +1,6 @@
+SELECT 
+    DATE_TRUNC(Transaction_Date, MONTH) AS month,
+    ROUND(SUM(Purchase_Amount), 2) AS total_revenue
+FROM `ecommerce.transaction`
+GROUP BY 1
+ORDER BY 1 ASC;
