@@ -25,7 +25,7 @@ By ranking payment options using window functions, distinct local preferences we
 * **UPI** holds dominance in **Australia and Canada**.
 * **Debit Cards** are preferred in the **US and Germany**, while **Credit Cards** lead in **France**.
 * *Strategic Action:* Because payment methods have highly uniform shares (~17-18% each per country), the business must retain all local transaction gateways to avoid checkout friction.
-* * ![Table of number of payments methods](https://docs.google.com/spreadsheets/d/1Zc1MfG30ZxxhhoSm-SYpQhHzxPUfC464-Qskpmf8h0I/edit?usp=sharing)
+*  ![Table of number of payments methods](https://docs.google.com/spreadsheets/d/1Zc1MfG30ZxxhhoSm-SYpQhHzxPUfC464-Qskpmf8h0I/edit?usp=sharing)
 
 ### 4. Demographic Profiling & Purchasing Patterns
 Segmenting customers into specific age groups via conditional logic revealed clear behavioral dynamics:
