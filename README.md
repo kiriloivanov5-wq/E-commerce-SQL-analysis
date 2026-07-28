@@ -8,11 +8,14 @@ This project focuses on conducting an End-to-End Exploratory Data Analysis (EDA)
 ### 1. Sales Performance & Trend Analysis
 * **Observation:** Monthly revenue maintains a highly stable plateau at approximately **$1M - $1.1M** per month. The data reveals an **absence of seasonality** across the observed years.
 * **Data Anomalies Handled:** Identified partial/incomplete data segments at the starting boundary (March 2023) and closing boundary (March 2025) of the dataset, which initially caused artificial revenue drops on charts.
+* ![Sales Trend](visualizations/Revenue%20by%20month.png)
 
 ### 2. Geographical Sales & Category Distribution
 * **High Diversification:** Sales are perfectly distributed globally. Core markets including the US, UK, France, Germany, Canada, Brazil, Mexico, Australia, India, and Japan generate an identical revenue bracket of **$2.4M - $2.5M** each.
 * **Category Balance:** Every product category (`Sports`, `Toys`, `Books`, etc.) accounts for a stable **11.5% - 13.5%** share of total revenue within *every single country*. 
 * *Analyst's Note:* This extreme uniformity strongly suggests the dataset's synthetic nature (e.g., standard uniform distribution modeling), a critical structural detail identified during the data profiling phase.
+* ![Revenue by Country](visualizations/Revenue%20by%20country.png)
+![Revenue by Category](visualizations/Revenue%20by%20category.png)
 
 ### 3. Regional Payment Preferences
 By ranking payment options using window functions, distinct local preferences were isolated:
