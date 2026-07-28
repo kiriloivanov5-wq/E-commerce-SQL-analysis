@@ -9,6 +9,7 @@ This project focuses on conducting an End-to-End Exploratory Data Analysis (EDA)
 * **Observation:** Monthly revenue maintains a highly stable plateau at approximately **$1M - $1.1M** per month. The data reveals an **absence of seasonality** across the observed years.
 * **Data Anomalies Handled:** Identified partial/incomplete data segments at the starting boundary (March 2023) and closing boundary (March 2025) of the dataset, which initially caused artificial revenue drops on charts.
 * ![Sales Trend](visualizations/Revenue%20by%20month.png)
+* https://docs.google.com/spreadsheets/d/1UVBG-aJYLanHam7OuVJrcw5niduayK7bVPvxSTY62Sc/edit?usp=sharing
 
 ### 2. Geographical Sales & Category Distribution
 * **High Diversification:** Sales are perfectly distributed globally. Core markets including the US, UK, France, Germany, Canada, Brazil, Mexico, Australia, India, and Japan generate an identical revenue bracket of **$2.4M - $2.5M** each.
