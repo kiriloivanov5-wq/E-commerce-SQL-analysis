@@ -41,3 +41,4 @@ Segmenting customers into specific age groups via conditional logic revealed cle
 ## 📁 Repository Structure
 * `/scripts` — Contains structured `.sql` production scripts for each analytical step.
 * `/visualizations` — Contains dashboard screenshots, geographic maps, and trend charts.
+* `README.md` — Main project documentation, data dictionary, and executive summary.
